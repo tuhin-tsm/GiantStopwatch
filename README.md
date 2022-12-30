@@ -1,0 +1,1 @@
+## A full screen easy to read stopwatch app for Android and iOS. The app is simple and perfect for tracking time while working out.

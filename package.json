@@ -7,7 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "type-check": "tsc --pretty --noEmit",
+    "type-check-watch": "tsc --pretty --noEmit --watch",
+    "android-release": "cd android && ./gradlew assembleRelease",
+    "android-release-prod": "cd android && ./gradlew bundleRelease",
+    "gradle-clean": "cd android && .gradlew clean"
   },
   "dependencies": {
     "react": "18.1.0",
